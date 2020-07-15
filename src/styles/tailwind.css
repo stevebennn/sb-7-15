@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  color: cornflowerblue;
+}
+*[class*="mb-1"],
+*[class*="pb-1"],
+*[class*="mb-2"],
+*[class*="pb-2"],
+*[class*="mb-3"],
+*[class*="pb-3"],
+*[class*="mb-4"],
+*[class*="pb-4"],
+*[class*="mb-5"],
+*[class*="pb-5"],
+*[class*="mb-6"],
+*[class*="pb-6"],
+*[class*="mb-7"],
+*[class*="pb-7"],
+*[class*="mb-8"],
+*[class*="pb-8"],
+*[class*="mb-9"],
+*[class*="pb-9"],
+*[class*="mb-10"],
+*[class*="pb-10"],
+*[class*="mt-1"],
+*[class*="pt-1"],
+*[class*="mt-2"],
+*[class*="pt-2"],
+*[class*="mt-3"],
+*[class*="pt-3"],
+*[class*="mt-4"],
+*[class*="pt-4"],
+*[class*="mt-5"],
+*[class*="pt-5"],
+*[class*="mt-6"],
+*[class*="pt-6"],
+*[class*="mt-7"],
+*[class*="pt-7"],
+*[class*="mt-8"],
+*[class*="pt-8"],
+*[class*="mt-9"],
+*[class*="pt-9"],
+*[class*="mt-10"],
+*[class*="pt-10"],
+*[class*="mx-1"],
+*[class*="px-1"],
+*[class*="mx-2"],
+*[class*="px-2"],
+*[class*="mx-3"],
+*[class*="px-3"],
+*[class*="mx-4"],
+*[class*="px-4"],
+*[class*="mx-5"],
+*[class*="px-5"],
+*[class*="mx-6"],
+*[class*="px-6"],
+*[class*="mx-7"],
+*[class*="px-7"],
+*[class*="mx-8"],
+*[class*="px-8"],
+*[class*="mx-9"],
+*[class*="px-9"],
+*[class*="mx-10"],
+*[class*="px-10"],
+*[class*="my-1"],
+*[class*="py-1"],
+*[class*="my-2"],
+*[class*="py-2"],
+*[class*="my-3"],
+*[class*="py-3"],
+*[class*="my-4"],
+*[class*="py-4"],
+*[class*="my-5"],
+*[class*="py-5"],
+*[class*="my-6"],
+*[class*="py-6"],
+*[class*="my-7"],
+*[class*="py-7"],
+*[class*="my-8"],
+*[class*="py-8"],
+*[class*="my-9"],
+*[class*="py-9"],
+*[class*="my-10"],
+*[class*="py-10"] {
+  background: red;
+} */
+
+/* large title */
+.hds-title__large {
+  @apply text-4xl;
+}
+
+@screen md {
+  .hds-title__large {
+    @apply text-5xl;
+  }
+}
+
+/* medium title */
+.hds-title__medium {
+  @apply text-3xl;
+}
+
+@screen md {
+  .hds-title__medium {
+    @apply text-4xl;
+  }
+}
+
+.hds-title__small {
+  @apply text-2xl;
+}
+
+@screen md {
+  .hds-title__small {
+    @apply text-2xl;
+  }
+}
+
+/* small | body copy */
+.hds-copy {
+  @apply text-base;
+}
+
+@screen md {
+  .hds-copy {
+    @apply text-xl;
+  }
+}
+
+/* extra small | legal copy */
+.hds-legal {
+  @apply text-xs;
+}
+
+@screen md {
+  .hds-legal {
+    @apply text-sm;
+  }
+}
+
+.hds-input {
+  @apply bg-white border px-6 py-4;
+}
+
+.hds-btn {
+  @apply py-4 px-10 text-base font-medium rounded;
+}
+
+.hds-btn__primary {
+  @apply bg-secondary text-white;
+}
+
+.hds-btn__primary:hover {
+  @apply bg-secondary-dark;
+}
+
+.hds-btn__secondary {
+  @apply bg-primary text-white;
+}
+
+.hds-btn__secondary:hover {
+  @apply bg-primary-dark;
+}
+
+.hds-section__v-spacing {
+  @apply py-sm;
+}
+
+@screen md {
+  .hds-section__v-spacing {
+    @apply py-md;
+  }
+}
+
+.hds-section__h-spacing {
+  @apply px-md;
+}
+
+@screen md {
+  .hds-section__h-spacing {
+    @apply px-md;
+  }
+}
+
+.full div.zoom {
+  zoom: 1;
+}
+
+.full .p-4 {
+  padding: 0 !important;
+}
+
+.full .trellis-shadow {
+  box-shadow: none;
+}
